@@ -1,0 +1,6 @@
+{
+    "logo": "[class='logo-md']",
+    "userNameField": "[data-testid='login-username']",
+    "passwordField": "[data-testid='login-password']",
+    "loginButton": "[data-testid='login-btn']"
+}

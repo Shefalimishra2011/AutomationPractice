@@ -1,0 +1,14 @@
+{
+  "logo": "[class='logo-md']",
+  "userNameField": "[data-testid='login-username']",
+  "passwordField": "[data-testid='login-password']",
+  "loginButton": "[data-testid='login-btn']",
+  "documentTaggingHeading": "p.common-heading",
+  "pendingListHeading": "div.common-heading",
+  "dropDownMenuButton": ".dropdown-toggle",
+  "dropDownItemList": ".dropdown-item",
+  "supervisorAndRolewiseText": "p.common-heading",
+  "viewAllCountText": ".btn-link.cursor-pointer",
+  "supervisorRoles": "div.white-box",
+  "documentTaggingCheckBox": "td input[type=checkbox]"
+}

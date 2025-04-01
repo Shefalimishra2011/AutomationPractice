@@ -1,0 +1,35 @@
+{
+  "name": "re",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:smoke-chrome": "npx cypress run --browser chrome --env grepTags=@smoke",
+    "cy:smoke-firefox": "npx cypress run --browser firefox --env grepTags=@smoke",
+    "cy:smoke-edge": "npx cypress run --browser edge --env grepTags=@smoke",
+    "cy:smoke": "npx cypress run --env grepTags=@smoke",
+    "cy:sanity-chrome": "npx cypress run --browser chrome --env grepTags=@sanity",
+    "cy:sanity-firefox": "npx cypress run --browser firefox --env grepTags=@sanity",
+    "cy:sanity-edge": "npx cypress run --browser edge --env grepTags=@sanity",
+    "cy:sanity": "npx cypress run --env grepTags=@sanity",
+    "cy:regression-chrome": "npx cypress run --browser chrome --env grepTags=@regression",
+    "cy:regression-firefox": "npx cypress run --browser firefox --env grepTags=@regression",
+    "cy:regression-edge": "npx cypress run --browser edge --env grepTags=@regression",
+    "cy:regression": "npx cypress run --env grepTags=@regression",
+    "cy:all-chrome": "npx cypress run --browser chrome",
+    "cy:all-firefox": "npx cypress run --browser firefox",
+    "cy:all-edge": "npx cypress run --browser edge",
+    "cy:all": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^14.0.1"
+  },
+  "devDependencies": {
+    "@cypress/grep": "^4.1.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "dotenv": "^16.4.7"
+  }
+}

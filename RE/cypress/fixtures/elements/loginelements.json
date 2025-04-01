@@ -1,0 +1,10 @@
+{
+    "logo": "[class='logo-md']",
+    "userNameField": "[data-testid='login-username']",
+    "passwordField": "[data-testid='login-password']",
+    "loginButton": "[data-testid='login-btn']",
+    "documentTaggingHeading": "p.common-heading",
+    "pendingListHeading": "div.common-heading",
+    "invalidErrorMessage": "#alert-wrong-details"
+    
+  }
