@@ -3,3 +3,4 @@
 *downloads
 /cypress.env.json
 \cypress\reports
+.env
